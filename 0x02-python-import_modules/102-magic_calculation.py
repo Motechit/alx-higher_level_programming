@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 
-
 def magic_calculation(a, b):
     '''Calculation must match code provided'''
-    from magic_calculation_102 import add, sub
+    from calculator_1 import add, sub
 
     if a < b:
         c = add(a, b)
