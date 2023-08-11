@@ -2,7 +2,7 @@
 
 
 def magic_calculation(a, b):
-    #Fxn matches bytecode provided by Holberton School
+    '''Calculation must match code provided'''
     from magic_calculation_102 import add, sub
 
     if a < b:
