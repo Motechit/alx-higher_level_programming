@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def add(a, b):
-    """Additn fxn
+    """The Additn fxn
 
     Args:
         a: first int
