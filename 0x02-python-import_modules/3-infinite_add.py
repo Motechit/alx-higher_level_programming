@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-    #Fxn prints the additn of all args
+    """It does the additn of all args"""
     import sys
 
     total = 0
