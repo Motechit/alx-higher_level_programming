@@ -2,6 +2,7 @@
 
 """Define a class Sqr"""
 
+
 class Square:
     """Reps a sqr"""
 

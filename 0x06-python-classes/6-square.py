@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Sqr class definatn"""
 
+
 class Square:
     """Sqr class body"""
 
