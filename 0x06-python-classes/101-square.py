@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Sqr class definatn"""
+"""Sqr class defination."""
 
 
 class Square:
@@ -9,14 +9,14 @@ class Square:
         """Sqr constructor
         Args:
             size (int): The size of the new sqr
-            sqr position (int, int): of Tupple
+            position (int, int): The position of the new sqr
         """
         self.size = size
         self.position = position
 
     @property
     def size(self):
-        """This is the getter and getter of a sqr"""
+        """The getter and setter to the current size of the square."""
         return (self.__size)
 
     @size.setter
@@ -29,7 +29,7 @@ class Square:
 
     @property
     def position(self):
-        """This is the getter and Setter for position of the sqr"""
+        """The getter and setter to the current position of the sqr"""
         return (self.__position)
 
     @position.setter
@@ -42,11 +42,11 @@ class Square:
         self.__position = value
 
     def area(self):
-        """It returns new area of the sqr"""
+        """It returns the current area of the sqr"""
         return (self.__size * self.__size)
 
     def my_print(self):
-        """It prints the stdout to the sqr with the char"""
+        """It prints the sqr with the # char"""
         if self.__size == 0:
             print("")
             return
@@ -56,3 +56,14 @@ class Square:
             [print(" ", end="") for j in range(0, self.__position[0])]
             [print("#", end="") for k in range(0, self.__size)]
             print("")
+
+    def __str__(self):
+        """We define the print() rep. of a Sqr"""
+        if self.__size != 0:
+            [print("") for i in range(0, self.__position[1])]
+        for i in range(0, self.__size):
+            [print(" ", end="") for j in range(0, self.__position[0])]
+            [print("#", end="") for k in range(0, self.__size)]
+            if i != self.__size - 1:
+                print("")
+        return ("")
