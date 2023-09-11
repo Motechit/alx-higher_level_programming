@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""Defines Rectangle module"""
+"""Defines Rectangle module."""
 Rectangle = __import__('9-rectangle').Rectangle
 
 
 class Square(Rectangle):
-    """class body"""
+    """class body."""
 
     def __init__(self, size):
 
